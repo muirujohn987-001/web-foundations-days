@@ -71,3 +71,13 @@ Example:
 ```sql
 CREATE INDEX idx_enrolments_course_id
 ON enrolments(course_id);
+
+## 5. SQL or NoSQL?
+
+I would choose a relational SQL database for this school system because students, courses and enrolments have clearly defined relationships. SQL supports primary keys, foreign keys and unique constraints, which help maintain data integrity and prevent invalid or duplicate enrolments.
+
+SQL also makes it easier to retrieve related information using JOIN operations and to calculate the number of students enrolled in each course using GROUP BY. These features are important when generating school reports and managing student records.
+
+A NoSQL document database could store student and course information in flexible documents, but it might require duplicating data or performing some relationships in application code. This can make data consistency and updates more difficult to manage.
+
+Therefore, I would use a relational SQL database for this school system. SQLite is suitable for this assignment because it is lightweight and easy to use, while PostgreSQL would be a good option for a larger school system requiring support for many simultaneous users.

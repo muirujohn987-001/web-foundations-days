@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was understanding how to design a system that remains correct and reliable under heavy traffic. Initially, I found it challenging to understand how multiple users could access the same resource simultaneously without causing inconsistencies. I overcame this by breaking the problem into smaller parts and studying how database transactions, row-level locking, and constraints work together. Designing TicketHub helped me understand that preventing two people from purchasing the same seat requires enforcement at the database level, not just frontend validation.
+
+Based on feedback from my earlier assignments, I would improve the completeness and clarity of my technical documentation. In particular, I would provide more detailed API examples, explain database relationships more explicitly, and make sure every design decision is supported by a clear reason. I have learned that a good system design document should communicate not only what components are included but also why they are necessary.
+
+Next, I want to learn backend development with Node.js and PostgreSQL in greater depth. I would particularly like to implement REST APIs, database transactions, authentication, and payment integrations. I also want to explore load testing and cloud infrastructure so that I can move from designing scalable systems to building and deploying them.
